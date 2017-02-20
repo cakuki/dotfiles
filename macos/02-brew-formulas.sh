@@ -4,6 +4,7 @@
 brew install \
 	git \
 	git-extras \
+	ios-deploy \
 	node \
 	nvm \
 	python \
@@ -16,6 +17,7 @@ brew cask install \
 	docker \
 	imageoptim \
 	iterm2 \
+	java \
 	mongohub \
 	skype \
 	visual-studio-code
