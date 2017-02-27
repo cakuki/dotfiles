@@ -29,7 +29,11 @@ docker-compose -p verdaccio -f "$HOME/Library/Developer/docker/services/verdacci
 npm set registry "http://localhost:4873"
 
 npm install --global \
-	bower \
-	cordova \
-	eslint \
-	gulp-cli
+  bower \
+  cordova \
+  eslint \
+  ios-deploy \
+  gulp-cli
+
+# Required for python script used by ios-deploy
+pip install six
