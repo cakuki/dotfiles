@@ -1,0 +1,21 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "window.zoomLevel": 0,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/.idea": true
+    },
+    "files.associations": {
+        "*.yml.tpl": "yaml"
+    },
+    "explorer.openEditors.visible": 0,
+    "editor.dragAndDrop": true,
+    "editor.minimap.enabled": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.wordWrap": "on",
+    "workbench.welcome.enabled": false,
+    "workbench.iconTheme": "vs-nomo-dark"
+}
