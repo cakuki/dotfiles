@@ -20,6 +20,7 @@ brew cask install \
 	java \
 	mongohub \
 	skype \
+	toggldesktop \
 	visual-studio-code
 
 # Set nvm home
