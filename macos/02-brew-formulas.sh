@@ -2,26 +2,29 @@
 
 # Install formulas
 brew install \
-	git \
-	git-extras \
-	ios-deploy \
-	node \
-	nvm \
-	python \
-	python3 \
-	yarn
+  axel \
+  ghi \
+  git \
+  git-extras \
+  hub \
+  nvm \
+  python \
+  python3 \
+  ruby \
+  unrar \
+  yarn
 
 # Install cask formulas
 brew cask install \
-	appcleaner \
-	docker \
-	imageoptim \
-	iterm2 \
-	java \
-	mongohub \
-	skype \
-	toggldesktop \
-	visual-studio-code
+  appcleaner \
+  docker \
+  imageoptim \
+  iterm2 \
+  java \
+  mongohub \
+  skype \
+  toggldesktop \
+  visual-studio-code
 
 # Set nvm home
 mkdir -p ~/Library/Developer/nvm
@@ -32,3 +35,5 @@ export NVM_DIR="$HOME/Library/Developer/nvm"
 . "/usr/local/opt/nvm/nvm.sh"
 EOF
 
+# Required by hub
+/usr/local/bin/gem install pygments.rb
