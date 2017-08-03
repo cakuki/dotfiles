@@ -3,10 +3,13 @@
 # Install formulas
 brew install \
   axel \
+  docker-cloud \
   ghi \
   git \
   git-extras \
   hub \
+  imgcat \
+  jq \
   nvm \
   python \
   python3 \
@@ -23,7 +26,6 @@ brew cask install \
   java \
   mongohub \
   skype \
-  toggldesktop \
   visual-studio-code
 
 # Set nvm home
