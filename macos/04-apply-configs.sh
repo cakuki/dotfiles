@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# git
+cp ../conf/git/* ~/
+
 # npm configuration
  npm config set init.author.name "Can Kutlu Kinay"
  npm config set init.author.email "me@ckk.im"
