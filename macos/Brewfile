@@ -1,0 +1,77 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/cask-versions"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
+# Record and share terminal sessions
+brew "asciinema"
+# Light UNIX download accelerator
+brew "axel"
+# Programmable completion for Bash 3.2
+brew "bash-completion"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Distributed revision control system
+brew "git"
+# Small git utilities
+brew "git-extras"
+# Git extension for versioning large files
+brew "git-lfs"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Idempotent command-line utility for managing your /etc/hosts file
+brew "hostess"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# Add GitHub support to git on the command-line
+brew "hub"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Helps you navigate your file system faster by learning your habits
+brew "jump"
+# Kubernetes prompt info for bash and zsh
+brew "kube-ps1"
+# Tool that can switch between kubectl contexts easily and create aliases
+brew "kubectx"
+# Mac App Store command-line interface
+brew "mas"
+# Simple tool to make locally trusted development certificates
+brew "mkcert"
+# Platform built on V8 to build network applications
+brew "node"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+# Tail multiple Kubernetes pods & their containers
+brew "stern"
+# Code-search similar to ack
+brew "the_silver_searcher"
+# Text interface for Git repositories
+brew "tig"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Internet file retriever
+brew "wget"
+# JavaScript package manager
+brew "yarn"
+# Additional completion definitions for zsh
+brew "zsh-completions"
+cask "1password"
+cask "appcleaner"
+cask "boostnote"
+cask "docker"
+cask "google-cloud-sdk"
+cask "iterm2"
+cask "java"
+cask "nordvpn"
+cask "sloth"
+cask "spotify"
+cask "telegram"
+cask "visual-studio-code-insiders"
+mas "Paste", id: 967805235
+mas "Pocket", id: 568494494
+mas "Slack", id: 803453959
+mas "Spark", id: 1176895641
+mas "Xcode", id: 497799835
